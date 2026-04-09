@@ -1,8 +1,8 @@
 // 🔥 YOUR FIREBASE CONFIG (replace this)
 const firebaseConfig = {
-  apiKey: "YOUR_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
+  apiKey: "AIzaSyAd0al5YISdP1Apl7YK7clWKjYOhovspz8",
+  authDomain: "watch-together-7e08f.firebaseapp.com",
+  projectId: "watch-together-7e08f",
 };
 
 firebase.initializeApp(firebaseConfig);
