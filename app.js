@@ -15,6 +15,7 @@ const fileInput = document.getElementById("fileInput");
 // Load offline file
 fileInput.onchange = (e) => {
   const file = e.target.files[0];
+  console.log(file);
   video.src = URL.createObjectURL(file);
 };
 
