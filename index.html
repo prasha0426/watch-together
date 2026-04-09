@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Watch Together</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
+
+  <!-- VIDEO PLAYER -->
+  <div class="video-section">
+    <input type="file" id="fileInput">
+    <video id="video" controls></video>
+  </div>
+
+  <!-- VIDEO CALL -->
+  <div class="call-section">
+    <iframe id="jitsi"
+      src=""
+      allow="camera; microphone; fullscreen"
+      frameborder="0">
+    </iframe>
+  </div>
+
+</div>
+
+<!-- CHAT -->
+<div class="chat">
+  <div id="messages"></div>
+  <input id="msgInput" placeholder="Type message...">
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
